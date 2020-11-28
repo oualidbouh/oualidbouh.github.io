@@ -1,37 +1,45 @@
 <template>
   <div>
-     <headroom>
+    <Headroom>
       <header class="header">
         <a href="" class="logo">
           <span class="grey-color"> &lt;</span>
-          <span class="logo-name">Oualid bouh</span>
+          <span class="logo-name">oualid</span>
           <span class="grey-color">/&gt;</span>
         </a>
         <input class="menu-btn" type="checkbox" id="menu-btn" />
-        <label class="menu-icon" htmlFor="menu-btn">
+        <label class="menu-icon" for="menu-btn">
           <span class="navicon"></span>
         </label>
         <ul class="menu">
           <li>
             <a href="#skills">Skills</a>
           </li>
-            <li>
-              <a href="#experience">Work Experiences</a>
-            </li>
           <li>
             <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#blogs">Blogs</a>
+          </li>
+          <li>
+            <a href="#talks">Talks</a>
           </li>
           <li>
             <a href="#contact">Contact Me</a>
           </li>
         </ul>
       </header>
-    </headroom>
+    </Headroom>
   </div>
 </template>
 
 <style>
 /* header */
+
+@font-face {
+  font-family: "Agustina Regular";
+  src: url("../assets/fonts/Agustina.woff");
+}
 
 .header {
   background-color: #fff;
